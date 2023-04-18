@@ -10,22 +10,22 @@
 
 
 #title {
-  font-family: Helvetica;
+  font-family: arial, helvetica, sans-serif;
   padding-left: 20px;
-  color: #FFFAF0; 
+  color: #fffaf0;
 }
 
 h1 {
-  font-family: Helvetica;
-  color: #ffffff;  
+  font-family: arial, helvetica, sans-serif;
+  color: #ffffff;
   font-size: 200%;
 }
 
 h2 {
-  font-family: Sans-serif;
+  font-family: arial, helvetica, sans-serif;
 }
 
 p {
-  font-family: Sans-serif;
+  font-family: arial, helvetica, sans-serif;
   text-indent: 40px;
 }
