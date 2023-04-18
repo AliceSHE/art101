@@ -7,3 +7,25 @@
 #alice-portrait {
   width: 400px;
 }
+
+
+#title {
+  font-family: Helvetica;
+  padding-left: 20px;
+  color: #FFFAF0; 
+}
+
+h1 {
+  font-family: Helvetica;
+  color: #ffffff;  
+  font-size: 200%;
+}
+
+h2 {
+  font-family: Sans-serif;
+}
+
+p {
+  font-family: Sans-serif;
+  text-indent: 40px;
+}
