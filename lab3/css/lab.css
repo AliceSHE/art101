@@ -5,6 +5,7 @@
 body {
   background-color: #696969;
 }
+
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
@@ -31,6 +32,10 @@ h2 {
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-indent: 40px;
+}
+
+div.subject {
+  color: palevioletred
 }
 
 #screenshot {
