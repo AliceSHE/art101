@@ -19,13 +19,6 @@ h1 {
   font-size: 200%;
 }
 
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #FFB6C1;
-}
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
