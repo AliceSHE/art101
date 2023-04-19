@@ -4,11 +4,13 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #50808E;
+  background-color: #696969;
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-family: sans-serif;
 }
 
@@ -26,6 +28,10 @@ h1 {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
+  border: solid 1px #ffff;
+  background-color: #FFB6C1;
+}
+
+p#subject {
+  color: palevioletred
 }
