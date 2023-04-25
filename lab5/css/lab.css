@@ -8,8 +8,7 @@ body {
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 3px #ffffff;
-  background-color: #f3de21;
+  background-color: #e8e8e6;
 }
 
 title {
@@ -33,7 +32,7 @@ p {
 }
 
 #hondacivic {
-  width: 300px;
+  width: 100px;
   display: block;
-  margin-right: auto;
+  margin-left: auto;
 }
