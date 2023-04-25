@@ -1,4 +1,4 @@
-// index.js - E
+// index.js - Experiment with JavaScript data types and variables.
 // Author: Alice Sheinin & Caitlin Smith
 // Date:04/25/2023
 
@@ -19,5 +19,3 @@ document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
 document.writeln("ownIt: " + ownIt + "<br>");
 document.writeln("Age: " + age + " years<br>");
-
-
