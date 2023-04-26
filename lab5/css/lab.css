@@ -35,7 +35,8 @@ p {
 }
 
 #bluehonda {
-  width: 10px;
+  height: 200px;
+  width: 50%;
   display: block;
   margin-left: auto;
 }
