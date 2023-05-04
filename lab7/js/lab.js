@@ -10,7 +10,7 @@ function userNameUCSC() {
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
   //sort the array
-  var nameArraySort = nameArray.sort('');
+  var nameArraySort = nameArray.sort();
   console.log("nameSort =", nameArraySort);
   //join array back to string
   var nameSorted = nameArraySort.join('');
