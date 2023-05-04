@@ -2,11 +2,11 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
-background-color: linear-gradient(white, green);
+  background-color: #2f5b42;
 }
 
 
-.content{
+.content {
   padding: 10px;
   margin-bottom: 10px;
   background-color: #ffffff;
