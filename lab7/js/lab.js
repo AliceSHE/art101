@@ -1,7 +1,8 @@
 // index.js - Lab 7 Functions
 // Author: Caitlin Smith and Alice Sheinin
-// Date: 5/5/3
+// Date: 5/3/23
 
+//a new function - userNameUCSC
 function userNameUCSC() {
   var userName = window.prompt("Please provide your user name");
   console.log("userName =", userName);
@@ -17,5 +18,5 @@ function userNameUCSC() {
   return nameSorted;
 }
 
-//output
+//call the function and output
 document.writeln("Thank you, I found your name: ", userNameUCSC(), "</br");
