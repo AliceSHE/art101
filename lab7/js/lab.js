@@ -19,4 +19,4 @@ function userNameUCSC() {
 }
 
 //call the function and output
-document.writeln("Thank you, I found your name: ", userNameUCSC(), "</br");
+document.writeln("Thank you, I found your name:  ", userNameUCSC(), "</br");
