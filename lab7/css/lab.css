@@ -2,19 +2,13 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
-  background-color: #737171;
+  background-color: #91dcb3;
 }
 
-.heading-section {
+.content {
   padding: 10px;
   margin-bottom: 10px;
   background-color: #ffffff;
-}
-
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  background-color: #dde3f8;
 }
 
 title {
@@ -41,12 +35,6 @@ p {
   text-indent: 40px;
 }
 
-#bluehonda {
-  height: 300px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .output {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
