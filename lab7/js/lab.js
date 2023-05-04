@@ -4,13 +4,13 @@
 
 //a new function - userNameUCSC
 function userNameUCSC() {
-  var userName = window.prompt("Please provide your user name");
+  var userName = window.prompt("Please provide your username");
   console.log("userName =", userName);
   //split string to array
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
   //sort the array
-  var nameArraySort = nameArray.sort();
+  var nameArraySort = nameArray.sort('');
   console.log("nameSort =", nameArraySort);
   //join array back to string
   var nameSorted = nameArraySort.join('');
