@@ -9,11 +9,11 @@ function userNameUCSC() {
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
   //sort the array
-  var nameSort = nameArray.sort();
-  console.log("nameSort =", nameSort);
+  var nameArraySort = nameArray.sort();
+  console.log("nameSort =", nameArraySort);
   //join array back to string
-  var nameSorted = nameSort.join('');
-  dconsole.log("nameSorted =", nameSorted);
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted =", nameSorted);
   return nameSorted;
 }
 
