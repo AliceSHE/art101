@@ -2,7 +2,7 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
-  background-color: #39664c;
+  background-color: #6359b5;
 }
 
 
@@ -19,7 +19,7 @@ title {
 
 h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #292243;
+  color: #f8f8fa;
   font-size: 200%;
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(244, 244, 244), 0 0 5px white;
 }
