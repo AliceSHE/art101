@@ -28,4 +28,3 @@ outputEl.appendChild(new2El);
 new1El.style.color = "pink";
 new2El.style.fontSize = "60pt";
 
-outputEl.className = "changed";
