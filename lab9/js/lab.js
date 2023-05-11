@@ -27,3 +27,5 @@ outputEl.appendChild(new2El);
 //change the css attributes
 new1El.style.color = "pink";
 new2El.style.fontSize = "60pt";
+
+outputEl.className = "changed";
