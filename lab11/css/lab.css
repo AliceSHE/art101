@@ -1,4 +1,4 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+3/* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 body {
@@ -24,13 +24,10 @@ h1 {
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(244, 244, 244), 0 0 5px white;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-h3 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -39,4 +36,15 @@ p {
 
 .output {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sectionbox {
+  border: solid 1px white;
+  border-radius: 10px;
+  padding:10px;
+  margin: 10px;
+}
+
+.special {
+  background-color: pink;
 }
