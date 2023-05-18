@@ -3,9 +3,9 @@
 // Date: 5/17/23
 
 //
-$("#challenge").append("<button id='challenge-button'>Button</button>");
-$("#problem").append("<button id='problem-button'>Button</button>");
-$("#result").append("<button id='result-button'>Button</button>");
+$("#challenge").append("<button id='c'>Button</button>");
+$("#problem").append("<button id='p'>Button</button>");
+$("#result").append("<button id='r'>Button</button>");
 
 //
 $("#challenge").click(function(){
