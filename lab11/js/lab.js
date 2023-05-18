@@ -4,20 +4,20 @@
 
 
 //create buttons with text labels and add to sections. 
-$("#c").append("<button id='c'>Challenge</button>");
-$("#p").append("<button id='p'>Problem</button>");
-$("#r").append("<button id='r'>Result</button>");
+$("#challenge").append("<button id='c'>Challenge</button>");
+$("#problem").append("<button id='p'>Problem</button>");
+$("#result").append("<button id='r'>Result</button>");
 
 //click event to the challenge button and toggle 
-$("#c").click(function(){
+$("#challenge").click(function(){
     $(this).parent().toggleClass("special");
 })
 //click event to the problem button and toggle 
-$("#p").click(function(){
+$("#problem").click(function(){
     $(this).parent().toggleClass("special");
 })
 //click event to the result button and toggle 
-$("#r").click(function(){
+$("#result").click(function(){
     $(this).parent().toggleClass("special");
 })
 
