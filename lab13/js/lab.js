@@ -26,7 +26,7 @@ function fizzBuzz() {
             str = i;
         }
 
-        $("#output").append("<div>" + str + "</div>");
+        $("#output").append("<div>" + str);
 
     }
 }
