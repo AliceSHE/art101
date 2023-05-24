@@ -36,7 +36,7 @@ function fizzBuzz() {
         }
         //If the number is multiple 3 and 5, it should print "FizzBuzz!"
         if (i % 15 == 0) {
-            str += "FizzBazz";
+            str += "FizzBuzz";
         }
 
         //Set str to number
