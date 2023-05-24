@@ -9,15 +9,15 @@ $("#problem").append("<button id='p'>Problem</button>");
 $("#result").append("<button id='r'>Result</button>");
 
 //click event to the challenge button and toggle 
-$("#c").click(function(){
+$("#c").click(function () {
     $(this).parent().toggleClass("special");
 })
 //click event to the problem button and toggle 
-$("#p").click(function(){
+$("#p").click(function () {
     $(this).parent().toggleClass("special");
 })
 //click event to the result button and toggle 
-$("#r").click(function(){
+$("#r").click(function () {
     $(this).parent().toggleClass("special");
 })
 
