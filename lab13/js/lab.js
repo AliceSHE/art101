@@ -21,24 +21,6 @@ function fizzBuzz() {
             str += "Boom";
         }
 
-        //If the number is multiple 3 ,5 and 7, it should print "FizzBuzzBoom!"
-        if (i % 105 == 0) {
-            str += "FizzBuzzBoom";
-        }
-
-        //If the number is multiple 5 and 7, it should print "BuzzBoom!"
-        if (i % 35 == 0) {
-            str += "BuzzBoom";
-        }
-        //If the number is multiple 3 and 7, it should print "FizzBoom!"
-        if (i % 21 == 0) {
-            str += "FizzBoom";
-        }
-        //If the number is multiple 3 and 5, it should print "FizzBuzz!"
-        if (i % 15 == 0) {
-            str += "FizzBuzz";
-        }
-
         //Set str to number
         if (str == "") {
             str = i;
