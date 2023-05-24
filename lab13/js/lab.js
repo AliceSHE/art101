@@ -45,7 +45,7 @@ function fizzBuzz() {
         }
 
         $("#output").append("<div>" + str);
+       
     }
-    return str;
 }
-$("#output").html(fizzBuzz());
+(fizzBuzz());
