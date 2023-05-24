@@ -2,10 +2,9 @@
 // Author: Caitlin Smith and Alice Sheinin
 // Date: 5/24/23
 
-
+var str;
 //Create a "FizzBuzz" function similar to how we did in class.
 function fizzBuzz() {
-    var str;
     //Loop through numbers 1 to 200, listing them as you go
     for (var i = 1; i <= 200; i++) {
         var str = "";
