@@ -8,13 +8,14 @@ $('#activate').click(function(){
 //using the ajax method
 $.ajax({
 //The URL for the request
-url: "https://yesno.wtf/#api",
+url: "https://yesno.wtf//api",
 data: {},
 type: "GET",
 dataType: "json",
 success : function(data){
     console.log(data);
-    $('#output').html(data);
+    $('#output').html(data.answer);
+    $('#output').appened(data.image);
 },
 error: function (jqXHR, textStatus, errorThrown) { 
     console.log("Error:", textStatus, errorThrown);
