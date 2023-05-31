@@ -3,7 +3,7 @@
 // Date: 5/31/23
 
 //add a click event to the button
-$('#activate').click(function(){
+function getAnswer(){
 //when the user clicks the button, use a jQuery AJAX call to fetch output from your API
 //using the ajax method
 $.ajax({
@@ -19,9 +19,10 @@ dataType: "json",
         var imgU = data.image;
         $('#output').html(answer);
         $('#output').appened("<img src =" + imgU + ">");
-}
-);
 });
+}
+
+$("button").click(getAnswer);
 
 
 //Put the output of the AJAX call in the output div. Either:
