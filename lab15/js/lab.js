@@ -12,16 +12,15 @@ url: "https://yesno.wtf//api",
 data: {},
 type: "GET",
 dataType: "json",
-success : function(data){
-    console.log(data);
-    $('#output').html(data.answer);
-    $('#output').appened(data.image);
-},
-error: function (jqXHR, textStatus, errorThrown) { 
-    console.log("Error:", textStatus, errorThrown);
+})
+.done(function(data){
+        console.log(data);
+        $('#output').html(data.answer);
+        $('#output').appened(data.image);
 }
+);
 });
-});
+
 
 //Put the output of the AJAX call in the output div. Either:
 //parse the JSON data structure like we did in lecture, or
