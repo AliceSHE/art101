@@ -17,8 +17,8 @@ dataType: "json",
         console.log(data);
         var answer = data.answer;
         var imgU = data.image;
-        $('#output').html(answer);
-        $('#output').appened("<img src =" + imgU + ">");
+        $("#output").html("<h3>" + answer);
+        $("#output").appened("<img src =" + imgU + ">");
 });
 }
 
