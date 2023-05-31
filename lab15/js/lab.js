@@ -15,8 +15,10 @@ dataType: "json",
 })
 .done(function(data){
         console.log(data);
-        $('#output').html(data.answer);
-        $('#output').appened(data.image);
+        var answer = data.answer;
+        var imgU = data.image;
+        $('#output').html(answer);
+        $('#output').appened("<img src =" + imgU + ">");
 }
 );
 });
