@@ -15,10 +15,11 @@ dataType: "json",
 })
 .done(function(data){
         console.log(data);
+        var printableData = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
         var answer = data.answer;
         var imgU = data.image;
         $("#output").html("<h3>" + answer);
-        $("#output").appened("<img src =" + imgU + ">");
+        $("#output").append("<img src=" + imgU + ">");
 });
 }
 
