@@ -14,6 +14,7 @@ type: "GET",
 dataType: "json",
 success : function(data){
     console.log(data);
+    $('#output').html(data);
 },
 error: function (jqXHR, textStatus, errorThrown) { 
     console.log("Error:", textStatus, errorThrown);
