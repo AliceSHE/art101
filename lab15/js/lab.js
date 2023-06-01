@@ -1,4 +1,4 @@
-// index.js - Lab 13 Loops
+// index.js - Lab 15 AJAX
 // Author: Caitlin Smith and Alice Sheinin
 // Date: 5/31/23
 
