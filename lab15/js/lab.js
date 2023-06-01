@@ -23,9 +23,7 @@ dataType: "json",
 });
 }
 
+//Call the function
 $("button").click(getAnswer);
 
 
-//Put the output of the AJAX call in the output div. Either:
-//parse the JSON data structure like we did in lecture, or
-//use JSON.stringify(data) to convert your data into a string
